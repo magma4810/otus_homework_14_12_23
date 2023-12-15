@@ -1,12 +1,12 @@
-const path = require('path');
+const path = require("path");
 
 const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
   },
   module: {
     rules: [
@@ -21,10 +21,10 @@ module.exports = {
       template: "public/index.html",
     }),
     new BrowserSyncPlugin({
-        host: "localhost",
-        port: 3000,
-        proxy: "http://127.0.0.1:8080/",
-        notify: false, // disable the BrowserSync notification
-      }),
-    ]
+      host: "localhost",
+      port: 3000,
+      proxy: "http://127.0.0.1:8080/",
+      notify: false, // disable the BrowserSync notification
+    }),
+  ],
 };
