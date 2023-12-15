@@ -5,70 +5,150 @@
     t,
     r,
     o,
-    a,
     i,
-    c,
+    a,
     s,
-    u,
+    c,
     d,
     l,
+    u,
     p,
     f,
-    v = {
-      138: (n, e, t) => {
-        t.d(e, { Z: () => c });
+    g = {
+      935: (n, e, t) => {
+        t.d(e, { Z: () => p });
         var r = t(81),
           o = t.n(r),
-          a = t(645),
-          i = t.n(a)()(o());
-        i.push([
+          i = t(645),
+          a = t.n(i),
+          s = t(667),
+          c = t.n(s),
+          d = new URL(t(530), t.b),
+          l = a()(o()),
+          u = c()(d);
+        l.push([
           n.id,
-          "body {\n  margin: 0;\n  padding: 0;\n}\n\n.desktop {\n  display: none;\n}\n\n@media screen and (min-width: 768px) {\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n}\n",
+          `.img_building_first {\n  background-image: url(${u});\n  background-size: 100% 100%;\n  width: 100vw;\n  height: 80vh;\n}\n\n.img_building_first > h1 > a {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  color: aliceblue;\n  padding: 10px;\n  margin: 10px;\n}\n`,
           "",
         ]);
-        const c = i;
+        const p = l;
+      },
+      632: (n, e, t) => {
+        t.d(e, { Z: () => p });
+        var r = t(81),
+          o = t.n(r),
+          i = t(645),
+          a = t.n(i),
+          s = t(667),
+          c = t.n(s),
+          d = new URL(t(751), t.b),
+          l = a()(o()),
+          u = c()(d);
+        l.push([
+          n.id,
+          `.second_block {\n  display: flex;\n}\n\n.img_building_second {\n  padding: 10px;\n  background-image: url(${u});\n  background-size: 100% 100%;\n  width: 290vw;\n  margin: 10px;\n}\n`,
+          "",
+        ]);
+        const p = l;
+      },
+      138: (n, e, t) => {
+        t.d(e, { Z: () => s });
+        var r = t(81),
+          o = t.n(r),
+          i = t(645),
+          a = t.n(i)()(o());
+        a.push([
+          n.id,
+          "body {\n  margin: 0;\n  padding: 0;\n  background-color: #e7dfd0;\n}\n\n.desktop {\n  display: none;\n}\n\nli {\n  list-style-type: none;\n  margin-left: 10px;\n  margin-right: 10px;\n}\n\na {\n  text-decoration: none;\n  color: black;\n}\n\n@media screen and (min-width: 768px) {\n  .mobile {\n    display: none;\n  }\n  .desktop {\n    display: block;\n  }\n}\n",
+          "",
+        ]);
+        const s = a;
       },
       434: (n, e, t) => {
-        t.d(e, { Z: () => c });
+        t.d(e, { Z: () => s });
         var r = t(81),
           o = t.n(r),
-          a = t(645),
-          i = t.n(a)()(o());
-        i.push([
+          i = t(645),
+          a = t.n(i)()(o());
+        a.push([
           n.id,
-          "footer {\n  background-color: azure;\n  color: darkolivegreen;\n  padding: 20px;\n  font-size: 20px;\n}\n",
+          ".footer {\n  display: flex;\n  justify-content: space-between;\n  font-size: small;\n}\n\n.footer_info {\n  display: flex;\n}\n",
           "",
         ]);
-        const c = i;
+        const s = a;
       },
       254: (n, e, t) => {
-        t.d(e, { Z: () => c });
+        t.d(e, { Z: () => s });
         var r = t(81),
           o = t.n(r),
-          a = t(645),
-          i = t.n(a)()(o());
-        i.push([
+          i = t(645),
+          a = t.n(i)()(o());
+        a.push([
           n.id,
-          "header {\n  background-color: azure;\n  color: darkolivegreen;\n  padding: 20px;\n  font-size: 20px;\n}\n",
+          ".nav_info {\n  display: flex;\n  background-color: #c7c0b387;\n  height: 95px;\n  justify-content: space-between;\n  padding-left: 0;\n  align-items: center;\n  font-size: small;\n}\n\n.container_info {\n  padding: 0;\n  display: flex;\n}\n",
           "",
         ]);
-        const c = i;
+        const s = a;
       },
-      28: (n, e, t) => {
-        t.d(e, { Z: () => l });
+      813: (n, e, t) => {
+        t.d(e, { Z: () => p });
         var r = t(81),
           o = t.n(r),
-          a = t(645),
-          i = t.n(a),
-          c = t(138),
-          s = t(254),
-          u = t(434),
-          d = i()(o());
-        d.i(c.Z),
-          d.i(s.Z),
-          d.i(u.Z),
-          d.push([n.id, "body {\n  background-color: lightblue;\n}\n", ""]);
-        const l = d;
+          i = t(645),
+          a = t.n(i),
+          s = t(667),
+          c = t.n(s),
+          d = new URL(t(766), t.b),
+          l = a()(o()),
+          u = c()(d);
+        l.push([
+          n.id,
+          `.services {\n  text-align: center;\n}\n\n.container_services {\n  display: flex;\n  justify-content: space-between;\n}\n\n.services_div {\n  background-image: url(${u});\n  background-size: 100% 100%;\n  width: 100vw;\n  height: 80vh;\n}\n`,
+          "",
+        ]);
+        const p = l;
+      },
+      28: (n, e, t) => {
+        t.d(e, { Z: () => h });
+        var r = t(81),
+          o = t.n(r),
+          i = t(645),
+          a = t.n(i),
+          s = t(138),
+          c = t(254),
+          d = t(935),
+          l = t(632),
+          u = t(813),
+          p = t(378),
+          f = t(434),
+          g = a()(o());
+        g.i(s.Z),
+          g.i(c.Z),
+          g.i(d.Z),
+          g.i(l.Z),
+          g.i(u.Z),
+          g.i(p.Z),
+          g.i(f.Z),
+          g.push([n.id, "\n", ""]);
+        const h = g;
+      },
+      378: (n, e, t) => {
+        t.d(e, { Z: () => p });
+        var r = t(81),
+          o = t.n(r),
+          i = t(645),
+          a = t.n(i),
+          s = t(667),
+          c = t.n(s),
+          d = new URL(t(509), t.b),
+          l = a()(o()),
+          u = c()(d);
+        l.push([
+          n.id,
+          `.subscribe {\n  background-image: url(${u});\n  background-size: 100% 100%;\n  width: 100vw;\n  height: 50vh;\n}\n`,
+          "",
+        ]);
+        const p = l;
       },
       645: (n) => {
         n.exports = function (n) {
@@ -94,41 +174,59 @@
                 );
               }).join("");
             }),
-            (e.i = function (n, t, r, o, a) {
+            (e.i = function (n, t, r, o, i) {
               "string" == typeof n && (n = [[null, n, void 0]]);
-              var i = {};
+              var a = {};
               if (r)
-                for (var c = 0; c < this.length; c++) {
-                  var s = this[c][0];
-                  null != s && (i[s] = !0);
+                for (var s = 0; s < this.length; s++) {
+                  var c = this[s][0];
+                  null != c && (a[c] = !0);
                 }
-              for (var u = 0; u < n.length; u++) {
-                var d = [].concat(n[u]);
-                (r && i[d[0]]) ||
-                  (void 0 !== a &&
-                    (void 0 === d[5] ||
-                      (d[1] = "@layer"
-                        .concat(d[5].length > 0 ? " ".concat(d[5]) : "", " {")
-                        .concat(d[1], "}")),
-                    (d[5] = a)),
+              for (var d = 0; d < n.length; d++) {
+                var l = [].concat(n[d]);
+                (r && a[l[0]]) ||
+                  (void 0 !== i &&
+                    (void 0 === l[5] ||
+                      (l[1] = "@layer"
+                        .concat(l[5].length > 0 ? " ".concat(l[5]) : "", " {")
+                        .concat(l[1], "}")),
+                    (l[5] = i)),
                   t &&
-                    (d[2]
-                      ? ((d[1] = "@media "
-                          .concat(d[2], " {")
-                          .concat(d[1], "}")),
-                        (d[2] = t))
-                      : (d[2] = t)),
+                    (l[2]
+                      ? ((l[1] = "@media "
+                          .concat(l[2], " {")
+                          .concat(l[1], "}")),
+                        (l[2] = t))
+                      : (l[2] = t)),
                   o &&
-                    (d[4]
-                      ? ((d[1] = "@supports ("
-                          .concat(d[4], ") {")
-                          .concat(d[1], "}")),
-                        (d[4] = o))
-                      : (d[4] = "".concat(o))),
-                  e.push(d));
+                    (l[4]
+                      ? ((l[1] = "@supports ("
+                          .concat(l[4], ") {")
+                          .concat(l[1], "}")),
+                        (l[4] = o))
+                      : (l[4] = "".concat(o))),
+                  e.push(l));
               }
             }),
             e
+          );
+        };
+      },
+      667: (n) => {
+        n.exports = function (n, e) {
+          return (
+            e || (e = {}),
+            n
+              ? ((n = String(n.__esModule ? n.default : n)),
+                /^['"].*['"]$/.test(n) && (n = n.slice(1, -1)),
+                e.hash && (n += e.hash),
+                /["'() \t\n]|(%20)/.test(n) || e.needQuotes
+                  ? '"'.concat(
+                      n.replace(/"/g, '\\"').replace(/\n/g, "\\n"),
+                      '"',
+                    )
+                  : n)
+              : n
           );
         };
       },
@@ -148,29 +246,29 @@
           return t;
         }
         function r(n, r) {
-          for (var a = {}, i = [], c = 0; c < n.length; c++) {
-            var s = n[c],
-              u = r.base ? s[0] + r.base : s[0],
-              d = a[u] || 0,
-              l = "".concat(u, " ").concat(d);
-            a[u] = d + 1;
-            var p = t(l),
+          for (var i = {}, a = [], s = 0; s < n.length; s++) {
+            var c = n[s],
+              d = r.base ? c[0] + r.base : c[0],
+              l = i[d] || 0,
+              u = "".concat(d, " ").concat(l);
+            i[d] = l + 1;
+            var p = t(u),
               f = {
-                css: s[1],
-                media: s[2],
-                sourceMap: s[3],
-                supports: s[4],
-                layer: s[5],
+                css: c[1],
+                media: c[2],
+                sourceMap: c[3],
+                supports: c[4],
+                layer: c[5],
               };
             if (-1 !== p) e[p].references++, e[p].updater(f);
             else {
-              var v = o(f, r);
-              (r.byIndex = c),
-                e.splice(c, 0, { identifier: l, updater: v, references: 1 });
+              var g = o(f, r);
+              (r.byIndex = s),
+                e.splice(s, 0, { identifier: u, updater: g, references: 1 });
             }
-            i.push(l);
+            a.push(u);
           }
-          return i;
+          return a;
         }
         function o(n, e) {
           var t = e.domAPI(e);
@@ -192,18 +290,18 @@
           );
         }
         n.exports = function (n, o) {
-          var a = r((n = n || []), (o = o || {}));
+          var i = r((n = n || []), (o = o || {}));
           return function (n) {
             n = n || [];
-            for (var i = 0; i < a.length; i++) {
-              var c = t(a[i]);
-              e[c].references--;
+            for (var a = 0; a < i.length; a++) {
+              var s = t(i[a]);
+              e[s].references--;
             }
-            for (var s = r(n, o), u = 0; u < a.length; u++) {
-              var d = t(a[u]);
-              0 === e[d].references && (e[d].updater(), e.splice(d, 1));
+            for (var c = r(n, o), d = 0; d < i.length; d++) {
+              var l = t(i[d]);
+              0 === e[l].references && (e[l].updater(), e.splice(l, 1));
             }
-            a = s;
+            i = c;
           };
         };
       },
@@ -266,12 +364,12 @@
                   o && (r += "}"),
                   t.media && (r += "}"),
                   t.supports && (r += "}");
-                var a = t.sourceMap;
-                a &&
+                var i = t.sourceMap;
+                i &&
                   "undefined" != typeof btoa &&
                   (r +=
                     "\n/*# sourceMappingURL=data:application/json;base64,".concat(
-                      btoa(unescape(encodeURIComponent(JSON.stringify(a)))),
+                      btoa(unescape(encodeURIComponent(JSON.stringify(i)))),
                       " */",
                     )),
                   e.styleTagTransform(r, n, e.options);
@@ -295,44 +393,84 @@
           }
         };
       },
+      509: (n, e, t) => {
+        n.exports = t.p + "8866d95af3788d1649ee.png";
+      },
+      766: (n, e, t) => {
+        n.exports = t.p + "86355bc5d88dafa3ad17.png";
+      },
+      751: (n, e, t) => {
+        n.exports = t.p + "a4794a618e7b5ec3d4ab.png";
+      },
+      530: (n, e, t) => {
+        n.exports = t.p + "ddf1deae0813a1168511.png";
+      },
     },
-    m = {};
-  function h(n) {
-    var e = m[n];
+    h = {};
+  function v(n) {
+    var e = h[n];
     if (void 0 !== e) return e.exports;
-    var t = (m[n] = { id: n, exports: {} });
-    return v[n](t, t.exports, h), t.exports;
+    var t = (h[n] = { id: n, exports: {} });
+    return g[n](t, t.exports, v), t.exports;
   }
-  (h.n = (n) => {
-    var e = n && n.__esModule ? () => n.default : () => n;
-    return h.d(e, { a: e }), e;
-  }),
-    (h.d = (n, e) => {
+  (v.m = g),
+    (v.n = (n) => {
+      var e = n && n.__esModule ? () => n.default : () => n;
+      return v.d(e, { a: e }), e;
+    }),
+    (v.d = (n, e) => {
       for (var t in e)
-        h.o(e, t) &&
-          !h.o(n, t) &&
+        v.o(e, t) &&
+          !v.o(n, t) &&
           Object.defineProperty(n, t, { enumerable: !0, get: e[t] });
     }),
-    (h.o = (n, e) => Object.prototype.hasOwnProperty.call(n, e)),
-    (h.nc = void 0),
-    (n = h(379)),
-    (e = h.n(n)),
-    (t = h(795)),
-    (r = h.n(t)),
-    (o = h(569)),
-    (a = h.n(o)),
-    (i = h(565)),
-    (c = h.n(i)),
-    (s = h(216)),
-    (u = h.n(s)),
-    (d = h(589)),
-    (l = h.n(d)),
-    (p = h(28)),
-    ((f = {}).styleTagTransform = l()),
-    (f.setAttributes = c()),
-    (f.insert = a().bind(null, "head")),
+    (v.g = (function () {
+      if ("object" == typeof globalThis) return globalThis;
+      try {
+        return this || new Function("return this")();
+      } catch (n) {
+        if ("object" == typeof window) return window;
+      }
+    })()),
+    (v.o = (n, e) => Object.prototype.hasOwnProperty.call(n, e)),
+    (() => {
+      var n;
+      v.g.importScripts && (n = v.g.location + "");
+      var e = v.g.document;
+      if (!n && e && (e.currentScript && (n = e.currentScript.src), !n)) {
+        var t = e.getElementsByTagName("script");
+        if (t.length) for (var r = t.length - 1; r > -1 && !n; ) n = t[r--].src;
+      }
+      if (!n)
+        throw new Error(
+          "Automatic publicPath is not supported in this browser",
+        );
+      (n = n
+        .replace(/#.*$/, "")
+        .replace(/\?.*$/, "")
+        .replace(/\/[^\/]+$/, "/")),
+        (v.p = n);
+    })(),
+    (v.b = document.baseURI || self.location.href),
+    (v.nc = void 0),
+    (n = v(379)),
+    (e = v.n(n)),
+    (t = v(795)),
+    (r = v.n(t)),
+    (o = v(569)),
+    (i = v.n(o)),
+    (a = v(565)),
+    (s = v.n(a)),
+    (c = v(216)),
+    (d = v.n(c)),
+    (l = v(589)),
+    (u = v.n(l)),
+    (p = v(28)),
+    ((f = {}).styleTagTransform = u()),
+    (f.setAttributes = s()),
+    (f.insert = i().bind(null, "head")),
     (f.domAPI = r()),
-    (f.insertStyleElement = u()),
+    (f.insertStyleElement = d()),
     e()(p.Z, f),
     p.Z && p.Z.locals && p.Z.locals,
     console.log("Hello World");
