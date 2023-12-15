@@ -1,6 +1,14 @@
-header {
-  background-color: azure;
-  color: darkolivegreen;
-  padding: 20px;
-  font-size: 20px;
+.nav_info {
+  display: flex;
+  background-color: #c7c0b387;
+  height: 95px;
+  justify-content: space-between;
+  padding-left: 0;
+  align-items: center;
+  font-size: small;
+}
+
+.container_info {
+  padding: 0;
+  display: flex;
 }

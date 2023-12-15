@@ -1,7 +1,7 @@
 @import "./body.css";
 @import "./header.css";
+@import "./block_first.css";
+@import "./block_second.css";
+@import "./services.css";
+@import "./subscribe.css";
 @import "./footer.css";
-
-body {
-  background-color: lightblue;
-}

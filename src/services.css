@@ -1,0 +1,15 @@
+.services {
+  text-align: center;
+}
+
+.container_services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services_div {
+  background-image: url(./img/Group\ 40.png);
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 80vh;
+}

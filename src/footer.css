@@ -1,6 +1,9 @@
-footer {
-  background-color: azure;
-  color: darkolivegreen;
-  padding: 20px;
-  font-size: 20px;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: small;
+}
+
+.footer_info {
+  display: flex;
 }
