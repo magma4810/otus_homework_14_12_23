@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "docs"),
+    path: path.resolve(__dirname, "dist"),
   },
   module: {
     rules: [
@@ -25,6 +25,7 @@ module.exports = {
       port: 3000,
       proxy: "http://127.0.0.1:8080/",
       notify: false, // disable the BrowserSync notification
+      template: "public/index.html",
     }),
   ],
 };
