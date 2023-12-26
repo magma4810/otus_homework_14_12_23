@@ -46,7 +46,7 @@
           u = c()(d);
         l.push([
           n.id,
-          `.second_block {\n  display: flex;\n}\n\n.img_building_second {\n  padding: 10px;\n  background-image: url(${u});\n  background-size: 100% 100%;\n  width: 290vw;\n  margin: 10px;\n}\n\n`,
+          `.second_block {\n  display: flex;\n}\n\n.img_building_second {\n  padding: 10px;\n  background-image: url(${u});\n  background-size: 100% 100%;\n  width: 290vw;\n  margin: 10px;\n}\n`,
           "",
         ]);
         const p = l;
