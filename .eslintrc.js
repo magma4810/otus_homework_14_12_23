@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   extends: "eslint:recommended",
-  ignorePatterns: ["docs"],
+  ignorePatterns: ["dist"],
   overrides: [
     {
       files: ["babel.config.js", "jest.config.js", "webpack.config.js"],
